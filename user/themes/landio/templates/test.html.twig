@@ -1,0 +1,31 @@
+{% extends 'partials/base.html.twig' %}
+{% block header %}{% endblock %}
+{% block content %}
+<section class="section-text">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-8 col-xl-4 col-xl-offset-4">
+        <h1 class="arrow">{{ page.header.title }}</h1>
+        {% for key, item in page.header.notes %}
+        <h3>{{ key }} points to {{ item }}</h3>
+        {% endfor %}
+        
+        <table>
+          <thead>
+            <th>First column</th>
+            <th>Second column</th>
+          </thead>
+          <tbody>
+
+            {#{% include 'partials/table_row.html.twig' with { 'key' : key, 'value' : item } %} #}
+            {% include 'partials/table_rows.html.twig' with { 'data' : page.header.data } %} 
+              
+          </tbody>
+        </table>
+        
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
+{% block footer %}{% endblock %}

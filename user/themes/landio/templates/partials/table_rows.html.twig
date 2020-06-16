@@ -1,0 +1,12 @@
+{% for x, y in data %}
+
+ <tr class="{{ cycle(['', 'br'], loop.index0) }}">
+  <td>
+    {{ x }}
+  </td>
+  <td>
+    {{ y }}
+  </td>
+</tr>
+
+{% endfor %}
