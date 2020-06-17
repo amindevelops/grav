@@ -1,4 +1,5 @@
 ---
+visible: false
 hidemenu: true
 title: Videos
 videos:

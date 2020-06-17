@@ -1,6 +1,5 @@
 ---
 title: Landio
-nav: 3
 menu: Home
 form:
     name: my-nice-form
@@ -66,9 +65,8 @@ content:
         custom:
             - _intro
             - _features
-            - _video
-            - _pricing
             - _testimonials
+            - _pricing
             - _text
             - _news
             - _contact

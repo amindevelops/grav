@@ -2,6 +2,10 @@ tr {
 	background: gray;
 }
 
-tr:nth-child(odd) {
+/*tr:nth-child(odd) {*/
+/*	background: red;*/
+/*}*/
+
+.br {
 	background: red;
 }

@@ -1,16 +1,18 @@
 ---
 title: Features
 features:
-  - title: 250
+  - title: Theory Support
     icon: pen
-    subtitle: UI Elements
-    text: Sed risus feugiat fusce eu sit conubia venenatis aliquet nisl cras eu adipiscing ac cras at sem cras per senectus eu parturient quam.
-  - title: Ultra
+    subtitle: Start early
+    text: The best way to remember the highway code is to drive it! Book your first lesson and put the tyres to the tarmac.
+  - title: Pass Quickly
     icon: thunderbolt
-    subtitle: Modern design
-    text: Sed risus feugiat fusce eu sit conubia venenatis aliquet nisl cras eu adipiscing ac cras at sem cras per senectus eu parturient quam.
-  - title: Free
+    subtitle: after lockdown
+    text: If you want to enjoy summer driving and have your test booked, our instructors can put you on a pronto plan. Block bookings save you money too.
+  - title: Coaching
     icon: heart
-    subtitle: Forever and ever
-    text: Sed risus feugiat fusce eu sit conubia venenatis aliquet nisl cras eu adipiscing ac cras at sem cras per senectus eu parturient quam.
+    subtitle: Instruction with care
+    text: Our instructors care about how you feel on the roads. Your lessons will be paced to be fun, whilst keeping you comfortable and progressing.
 ---
+
+<!-- test -->
